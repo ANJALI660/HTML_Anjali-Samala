@@ -1,0 +1,13 @@
+<html>
+<head>
+<title>JavaScript</title>
+</head>
+<body>
+<script>
+var movies=["rf","hgh","hjh","esd"];
+var last=movies.shift();
+document.write(last);
+document.write(movies.length);
+</script>
+</body>
+</html>

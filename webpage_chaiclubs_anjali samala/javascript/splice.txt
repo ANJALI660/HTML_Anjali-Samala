@@ -1,0 +1,14 @@
+<html>
+<head>
+<title>JavaScript</title>
+</head>
+<body>
+<p id="demo"></p>
+<script>
+const letters=["A","B","C","D"];
+letters.splice(3,1,"E","F","G");
+document.getElementById("demo").innerHTML=letters;
+
+</script>
+</body>
+</html>

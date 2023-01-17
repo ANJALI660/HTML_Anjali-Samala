@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<body>
+<h1>Details</h1>
+<form>
+<label for="fname">first name:</label><br>
+<input type="text"id="fname"name="fname"value="Anjali"><br>
+<label for="lname">last name:</label><br>
+<input type="text"id="last name"name="lname"value="Samala"><br>
+<label for="cname">college name:</label><br>
+<input type="text"id="cname"name="cname"value="Vaagdevi colleges"><br>
+<label for="skills">choose a language:</label>
+<select id="skills"name="skills"size="4">
+<option value="C">C</option>
+<option value="C++">C++</option>
+<option value="python">python</option>
+<option value="java">java</option>
+<option value="html">html</option>
+</select><br><br>
+<input type="submit">
+</form>
+<p>above all i declared is true.</p>
+</body>
+</html>

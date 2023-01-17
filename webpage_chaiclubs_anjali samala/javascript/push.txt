@@ -1,0 +1,14 @@
+<html>
+<head>
+<title>JavaScript</title>
+</head>
+<body>
+<script>
+var states=["Telangana","Andrapradesh","chennai","pune"];
+states.push("chennai");
+document.write(states);
+document.write(states.length);
+
+</script>
+</body>
+</html>

@@ -1,0 +1,14 @@
+<html>
+<head>
+<title>JavaScript</title>
+</head>
+<body>
+<script>
+var colors=["green","red","blue","Orange","pink"];
+colors.unshift("yellow");
+document.write(colors);
+document.write(colors.length);
+
+</script>
+</body>
+</html>

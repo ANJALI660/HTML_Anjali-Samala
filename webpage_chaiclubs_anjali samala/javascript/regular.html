@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+
+<p id="stu"></p>
+<p id="stu1"></p>
+<p id="stu2"></p>
+<p id="stu3"></p>
+<p id="stu4"></p>
+<p id="stu5"></p>
+<p id="stu6"></p>
+
+<script>
+let text = "my self Anjali Samala ,i am from Warangal";
+let set = /s/;
+let res = text.match(set);
+document.getElementById("stu").innerHTML = res;
+let abc="this IS a JAVASCRIPT It is ";
+let cat=/is/i;
+let bb=abc.match(cat);
+document.getElementById("stu1").innerHTML = bb;
+let aaa=" JAVASCRipt is case Sencitive type sen ";
+let ca=/sen/g;
+let pq=aaa.match(ca);
+document.getElementById("stu2").innerHTML = pq;
+let te = "it is a javscript programming";
+let pat = /[s a m]/g;
+let lll= te.match(pat);
+
+document.getElementById("stu3").innerHTML = lll;
+let text1 = "my self Anjali Samala,Iam from Telangana";
+let th = /[^a n]/gi;
+let mm = text1.match(th);
+
+document.getElementById("stu4").innerHTML = mm;
+let tt = "895047589324";
+let n = /[^8 0]/g;
+let rr = tt.match(n);
+
+document.getElementById("stu5").innerHTML = rr;
+let text2 = "This is online course";
+let pattern1 = /0/;
+let result3 = pattern1.test(text2);
+
+document.getElementById("stu6").innerHTML = result3;
+let tex = "This is online course and it having free";
+let patt = /n/;
+let resul = patt.test(tex);
+
+document.getElementById("stu7").innerHTML = resul;
+
+</script>
+
+</body>
+</html>

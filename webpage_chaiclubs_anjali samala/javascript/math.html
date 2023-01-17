@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+
+<p id="anju1"></p>
+<p id="anju2"></p>
+<p id="anju3"></p>
+<p id="anju4"></p>
+<p id="anju5"></p>
+<p id="anju6"></p>
+<p id="anju7"></p>
+<p id="anju8"></p>
+<p id="anju9"></p>
+<p id="anju10"></p>
+<p id="anju11"></p>
+<p id="anju12"></p>
+<p id="anju13"></p>
+<p id="anju14"></p>
+
+<p id="demo2"></p>
+<p id="demo1"></p>
+<p id="demo3"></p>
+<p id="demo4"></p>
+<p id="demo5"></p>
+<p id="demo6"></p>
+<p id="demo7"></p>
+<p id="demo8"></p>
+<p id="demo9"></p>
+
+<p id="demo10"></p>
+<p id="demo11"></p>
+<p id="stu2"></p>
+<p id="stu1"></p>
+<p id="stu3"></p>
+<p id="stu4"></p>
+<p id="stu6">html is not a case sencitive!</p>
+<p id="stu7"></p>
+
+<script>
+document.getElementById("anju1").innerHTML = Math.PI;
+document.getElementById("anju2").innerHTML = Math.round(0.8);
+document.getElementById("anju3").innerHTML = Math.ceil(1.1);
+document.getElementById("anju4").innerHTML = Math.floor(0.7);
+document.getElementById("anju5").innerHTML = Math.trunc(1.4);
+document.getElementById("anju6").innerHTML = Math.pow(2,3);
+document.getElementById("anju7").innerHTML = Math.sqrt(56);
+document.getElementById("anju8").innerHTML = Math.sqrt(81);
+document.getElementById("anju9").innerHTML = Math.abs(-0.6);
+document.getElementById("anju10").innerHTML = 
+"The sine value" + Math.sin(45 * Math.PI / 180);
+document.getElementById("demo1").innerHTML = Math.acos(-7);
+document.getElementById("demo2").innerHTML = Math.acos(-1);
+document.getElementById("anju11").innerHTML =
+Math.min(-1,0,4,7,5/7,0.2,-3/4,-3*4);
+document.getElementById("anju12").innerHTML =
+Math.max(0, 15, -3, 300/3, 80, -600);
+document.getElementById("anju13").innerHTML = Math.random();
+document.getElementById("anju14").innerHTML = Math.log(2/3);
+let a = Math.log10(2);
+let b = Math.log10(4/3);
+let c = Math.log10(0);
+let d = Math.log10(-3);
+let e = Math.log10(-9/5);
+
+document.getElementById("demo3").innerHTML =
+a + "<br>" + b + "<br>" + c + "<br>" + d + "<br>" + e;
+document.getElementById("demo4").innerHTML = Math.tanh(2);
+let num = 8;
+let text = num;
+
+document.getElementById("demo5").innerHTML = text;
+let k = Number.MAX_VALUE;
+document.getElementById("demo6").innerHTML = k;
+let p = Number.MIN_VALUE;
+document.getElementById("demo7").innerHTML = p;
+
+document.getElementById("demo8").innerHTML =  Number.POSITIVE_INFINITY;
+let nn = Number.NEGATIVE_INFINITY;
+document.getElementById("demo9").innerHTML = nn;
+document.getElementById("demo10").innerHTML = Number.NaN;
+document.getElementById("demo11").innerHTML = 19 * "anjali";
+let sss = "ANJALI SAMALA";
+let letter = sss.charAt(3);
+
+document.getElementById("stu1").innerHTML = letter;
+let ttt = "ANJALI SAMALA";
+let call = ttt.charAt(ttt.length-6);
+
+document.getElementById("stu2").innerHTML = call;
+let ccc = "javascript is case sencitive";
+let res = ccc.match("sc");
+ 
+document.getElementById("stu3").innerHTML = res;
+let hhh = "*srilatha!*";
+let res1 = hhh.repeat(9);
+
+document.getElementById("stu4").innerHTML = res1;
+let lll = document.getElementById("stu6").innerHTML; 
+document.getElementById("stu6").innerHTML = lll.replace("case sencitive", "heigh language");
+let text3 = "Hello world, welcome to the universe.";
+let res3 = text3.includes("w");
+
+document.getElementById("stu7").innerHTML = res3;
+
+</script>
+
+</body>
+</html>

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+
+<p id="dog"></p>
+<p id="dog1"></p>
+<p id="stu">hello all my self Anjali Samala!</p>
+<p id="stu3">i am from Telangana,warangal is located in telangana</p>
+<p id="stu4"></p>
+
+
+<script>
+let text1 = "welcome to javascript it is a scriptting language";
+let res = /e/.exec(text1);
+document.getElementById("dog").innerHTML = res;
+let text2 = "welcome to javascript it is a scriptting language";
+let res1 = /z/.exec(text2);
+document.getElementById("dog1").innerHTML = res1;
+let te = document.getElementById("stu").innerHTML; 
+document.getElementById("stu").innerHTML = te.replace("my self", "This is");
+let sss = document.getElementById("stu3").innerHTML; 
+let rr = sss.replace(/telangana/gi, "State");
+document.getElementById("stu3").innerHTML = rr;
+let ttt = "javascript is a , scriptting language."
+let po = ttt.search("is");
+
+document.getElementById("stu4").innerHTML = po;
+</script>
+</body>
+</html>

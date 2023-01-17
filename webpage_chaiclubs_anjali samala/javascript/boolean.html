@@ -1,0 +1,51 @@
+<html>
+<body>
+
+<p id="demo"></p>
+<p id="first"></p>
+<p id="second"></p>
+<p id="third"></p>
+<p id="scan"></p>
+<p id="epam"></p>
+<p id="five"></p>
+<p id="abc"></p>
+<p id="mam"></p>
+<p id="god"></p>
+
+<p id="flo"></p>
+<p id="morning"></p>
+<p id="after"></p>
+<p id="calling"></p>
+
+
+<script>
+document.getElementById("demo").innerHTML = Boolean(45 > 78);
+document.getElementById("first").innerHTML = Boolean(25 < 9);
+document.getElementById("second").innerHTML = (7 < 9);
+let x = 0;
+document.getElementById("third").innerHTML = Boolean(x);
+let y = "";
+document.getElementById("scan").innerHTML = Boolean("");
+let z = null;
+document.getElementById("epam").innerHTML = Boolean(z);
+let a = 15 * "welcome";
+document.getElementById("five").innerHTML = Boolean(a);
+let d = new Date();
+document.getElementById("abc").innerHTML = d;
+var s = new Date(2000, 09, 17, 11, 30, 20, 6);
+document.getElementById("mam").innerHTML = s;
+var k = new Date(67800000);
+document.getElementById("god").innerHTML = k;
+var j= new Date();
+document.getElementById("flo").innerHTML = j.toString();
+var t = new Date();
+document.getElementById("morning").innerHTML = t.toUTCString();
+var h = new Date();
+document.getElementById("after").innerHTML = h.toDateString();
+let v= new Date();
+document.getElementById("calling").innerHTML = v.toISOString();
+
+</script>
+
+</body>
+</html>

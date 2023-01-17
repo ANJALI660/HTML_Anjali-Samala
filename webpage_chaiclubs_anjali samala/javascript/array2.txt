@@ -1,0 +1,13 @@
+<html>
+<head>
+<title>JavaScript</title>
+</head>
+<body>
+<script>
+var fruits=["Apple","Banana","Mango","Orange","papay"];
+for(var i=0;i<fruits.length;i++){
+document.write(fruits[i] +"<br>");
+}
+</script>
+</body>
+</html>

@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Chai club</title>
+
+</head>
+<body><br>
+
+<button onclick="alert('This is my first web page')">Click Me</button>
+<br><br>
+<p4 id="second"></p4>
+
+
+  
+  
+<style>
+.clock {
+    position: center;
+    
+    
+    color: blue;
+    font-size: 30px;
+    font-family: Orbitron;
+    letter-spacing: 5px;
+   
+
+
+}
+
+  
+
+
+
+div {
+  background-color: lightpink;
+  width: 1100px;
+  border: 30px solid blue;
+  padding: 20px;
+  margin: 25px;
+}
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid pink;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: green;
+}
+body {
+  background-image: url('chai image.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed; 
+  background-size: 100% 100%;
+}
+
+h1:hover {
+   background-color:black;
+}
+p:hover {
+   background-color:red;
+}
+a:active {
+   background-color:green;
+}
+p1:active {
+   background-clor:yellow;
+}
+h1{text-align:center;}
+
+body {background-color:pink;}
+h1 {color:red;}
+h2 {color:green;}
+h3 {color:orange;}
+h4 {color:blue;}
+p  {color:black;}
+p1 {color:voilet;}
+</style>
+<script>
+function showTime(){
+    var date = new Date();
+    var h = date.getHours(); 
+    var m = date.getMinutes(); 
+    var s = date.getSeconds(); 
+    var session = "AM";
+    
+    if(h == 0){
+        h = 12;
+    }
+    
+    if(h > 12){
+        h = h - 12;
+        session = "PM";
+    }
+    
+    h = (h < 10) ? "0" + h : h;
+    m = (m < 10) ? "0" + m : m;
+    s = (s < 10) ? "0" + s : s;
+    
+    var time = h + ":" + m + ":" + s + " " + session;
+    document.getElementById("second").innerText = time;
+    let t = setTimeout(function(){ showTime() }, 1000);
+    
+    
+}
+
+showTime();
+
+</script>
+<h1 style="font-size:150px;">CHAICLUBS</h1>
+<h3 style="font-size:50px;">TIMINGS:</h3>
+<p1>10:30 am-9 pm</p1><br>
+<p1>Monday to Saturday open</p1><br>
+
+<img src="glass.jfif" alt="tea glass" width="1475" height="400">
+
+<h2 style="font-size:50px;">Welcome to Chaiclubs:</h2>
+
+
+
+<p style="font-size:100px">
+  &#128519;
+
+<center>
+<h3 style="font-size:50px;">MILK:</h3>
+<p6><img src="downloadmilk.jfif" alt="it is a chai club" style="width:1300px;height:300px;"></p6>
+<h3 style="font-size:50px;">MILKSHAKE:</h3>
+<p6><img src="downloadmilkshake.jfif" alt="it is a chai club" style="width:1300px;height:300px;"></p6>
+<h3 style="font-size:50px;">LEMEN TEA</h3>
+<p6><img src="downloadlemen.jfif" alt="it is a chai club" style="width:1300px;height:300px;"></p6>
+<h3 style="font-size:50px;">GREEN TEA</h3>
+<p6><img src="downloadgreen.jfif" alt="it is a chai club" style="width:1300px;height:300px;"></p6>
+<h3 style="font-size:50px;">GINJAR TEA</h3>
+<p6><img src="gingartea.jfif" alt="it is a chai club" style="width:1300px;height:300px;"></p6>
+<h3 style="font-size:50px;">NORMAL TEA</h3>
+<p6><img src="downloadnormal.jfif" alt="it is a chai club" style="width:1300px;height:300px;"></p6></center>
+</center>
+<h2><mark>. List of items</mark></h2>
+<p1><b>
+<ul>
+<li>coffe</li>
+<li>Tea</li>
+<li>Milk</li>
+<br></p1>
+<h2><mark>.List of teas</mark></h2>
+<p><i>
+<ol>
+<li>Lemen tea</li>
+<li>Green tea</li>
+<li>Gingar tea</li>
+</ol><br>
+<h2>TEAS TABLE:</h2>
+
+<table>
+  <tr>
+    <th>S.NO</th>
+    <th>TEA</th>
+    <th>COST</th>
+  </tr>
+  <tr>
+    <td>01</td>
+    <td>Milk</td>
+    <td>10</td>
+  </tr>
+  <tr>
+    <td>02</td>
+    <td>Lemen Tea</td>
+    <td>20</td>
+  </tr>
+  <tr>
+    <td>03</td>
+    <td>Milk Shake</td>
+    <td>40</td>
+  </tr>
+  <tr>
+    <td>04</td>
+    <td>Green Tea</td>
+    <td>25</td>
+  </tr>
+  <tr>
+    <td>05</td>
+    <td>Normal Tea</td>
+    <td>10</td>
+  </tr>
+  <tr>
+    <td>06</td>
+    <td>Gingar Tea</td>
+    <td>15</td>
+  </tr>
+</table>
+
+
+<center>
+    <marquee  behavior="alternate" direction="left">          
+          <img src=
+"tea1.jpg"
+          alt="tea logo"> 
+    </marquee>  
+      
+   <marquee  behavior="alternate" direction="right">         
+          <img src= 
+"tea2.jpg"
+          alt="chaiclub logo"> 
+    </marquee>  
+</center>
+
+
+
+
+<small>with less cost.<br>
+all <strong>cards</strong> are available<sub>All are welcome</sub>.</p>
+<h3 style="font-size:60px;"><b>About chaiclub<b>:</h3>
+<p>from time immemorial,tea continues to be the most essential and emotional<br>
+part of human lives across the world.</p>
+<p>In india,it is no differentr,as every region in this massive nation has<br>
+its variant or variety of tea,intrinsic and inherent to the culture,geography<br>
+and history of the respective region.<br></p>
+<p><a href="https://www.chaiclubs.co.in">chaiclubs</a></p>
+
+<nav><p3 style="background-color:tomato;">
+<a href="/home/">Home</a>|
+<a href="/about us/">About us</a>|
+<a href="/unit franclise/">Unit franclise</a>|
+<a href="/start up kit/">Start up kit</a>|
+<a href="/gallery/">Gallery</a>|
+<a href="/faqs/">FAQs</a>|
+<a href="/contact us/">Contact us</a>
+</nav></p3>
+
+
+<p><center><img src="chai club 1.jpg" alt="it is a chai club" style="width:1300px;height:400px;"></p>
+</center>
+<h4 style="font-size:50px;">chai club benefits</h4>
+<hr>
+<p2><div>Benefit b1:Huge margins<br>
+Benefit b2:lower risk<br>
+Benefit b3:short payback period<br>
+Benefit b4:breaking stereotypes<br>.</p2></div>
+<hr>
+<h2 style="font-size:60px;">Online booking</h2>
+<form>
+<label for="fname">full name:</label><br>
+<input type="text"id="fname"name="fname"<br><br>
+<label for="pname">phone number:</label><br>
+<input type="text"id="pname"name="pname"<br><br>
+<p>Gender:</p>
+<input type="checkbox"id="Gender"name="Gender"value="Female">
+<label for="Gender">Female</label><br>
+<input type="checkbox"id="Gender"name="Gender"value="Male">
+<label for="Gender">Male</label><br>
+<input type="checkbox"id="Gender"name="Gender"value="Other"
+<label for="Gender">Other</label><br><br>
+<p>Types of teas:</P>
+<input type="radio"id="lemen tea"name="types"value="Lemen tea">
+<label for="lemen tea">Lemen tea</label><br>
+<input type="radio"id="green tea"name="types"value="Green tea">
+<label for="green tea">Green tea</label><br>
+<input type="radio"id="gingar tea"name="types"value="Ginjar tea">
+<label for="ginjar tea">Ginjar tea</label><br><br>
+<label for="lname">location:</label><br>
+<input type="text"id="lname"name="lname"<br><br>
+<label for="payment">choose a payment:</label><br>
+<select id="payment"name="payment">
+<option value="phone pay">Phone pay</option>
+<option value="google pay">Google pay</option>
+<option value="paytm">Paytm</option><
+</select><br><br>
+<input type="submit">
+</form><br>
+<h2 style="font-size:50px;">chai sounds</h2>
+<p>click on the button to play the sound:</p>
+<audio controls autoplay>
+<source src="chai sound.MP3"type="audio/MP3">
+<souce src="chai sound.mp3"type="audio/mpeg">
+  
+</audio>
+<h1 style="font-size:50px;">Tea Videos</h1>
+<center>
+<video width="1400"height="400"controls>
+<source src="tea video.MP4"type="video/MP4">
+<source src="tea video.mp4"type="video/mp4">
+smile video.
+</video></center>
+
+<center>
+<video width="1400"height="400"controls>
+<source src="tea video2.MP4"type="video/MP4">
+<source src="tea video2.mp4"type="video/mp4">
+smile video.
+</video></center>
+
+<br>
+<h1 style="font-size:50px;">Chai advantages</h1>
+<center>
+<iframe width="885" height="498" src="https://www.youtube.com/embed/O17K1xpZj-s" title="Health Benefits Of Drinking Hot Tea - Nutrition Of Tea - Where Does Tea Come From - The 4 True Teas" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><br>
+</center>
+<h2 style="font-size:50px;">Plug in</h2>
+<object data="chai club 1.jpg"></object><br>
+<p>Booking percentage:</p>
+<label for="booking 1">Online booking:</label>
+<meter id="booking 1" value="7" min="0" max="10">2 out of 10</meter><br>
+<label for="booking 2">Offline booking:</label>
+<meter id="booking 2" value="0.6">60%</meter><br><br>
+
+<h2 style="font-size:60px;">Feedback:</h2>
+
+<form action="/action_page.php" id="usrform">
+  Name: <input type="text" name="usrname">
+  
+</form>
+<br>
+<textarea rows="10" cols="50" name="comment" form="usrform">
+Enter text here...</textarea><br>
+<input type="submit"><br><br>
+
+
+<button type="button"
+onclick="document.getElementById('demo').innerHTML = Date()">
+Click me to display Date and Time.</button>
+
+<p5 id="demo"></p5>
+<p>My name is Anjali Samala <del>srilatha</del>this is my first <ins>project</ins>!</p>
+<button ng-disabled="mySwitch">Choose your reaction with emoji</button><br>
+
+<p>
+<input type="checkbox" ng-model="mySwitch"/>Happy&#128515<br>
+<input type="checkbox" ng-model="mySwitch"/>Cool&#128519<br>
+
+<input type="checkbox" ng-model="mySwitch"/>More Happy&#128518<br>
+
+
+
+
+</p>
+<h2>OFFERS:</h2>
+
+
+<div>
+<h2 style="font-size:50px;">CHAICLUB</h2>
+<p5><b>#<b> Remove your stress&#128515;</p5><br>
+<p5># Always Keep smile&#128517;&#128516;</p5><br>
+<p5># Enjoy with your Family members &#128519</P5><br>
+<p5>**their is offer if you are buying <mark>more than 5 Teas</mark>,then you got free "MILK SHAKE".</p5>
+</div>
+
+<h3 style="font-size:50px;">ADDRESS</h3>
+ <p6>No.23-6-196/C/1,</p6><br>
+<p6>Dwaraka Nagar Colony,</p6><br>
+ <p6>Near Rohini Nursing College,</p6><br>
+<p6> Back side of Vishal Mart, </p6><br>
+<p6>Hunter Road,</p6><br>
+<p6> Hanamkonda, Warangal (U),</p6><br>
+<p6> Telangana - INDIA.</p6><br>
+<footer>
+<b>Email address:<b><br>
+<a href="mailto:anjalisamala8@gamil.com">anjalisamala8@gmail.com</a>
+</footer><br><br>
+
+
+
+
+</body>
+</html>

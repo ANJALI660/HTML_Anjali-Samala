@@ -1,0 +1,33 @@
+<html>
+<head>
+<title>JavaScript</title>
+</head>
+<body>
+<script>
+let names=["Anjali","srilatha","suchithra","mounika"];
+document.write(names.join() +"<br>");
+document.write(names.join("-") +"<br>");
+document.write(names.join("*") +"<br>");
+document.write(names.join(",") +"<br>");
+document.write(names.join(".") +"<br>");
+
+document.write(names.slice(2) +"<br>");
+document.write(names.slice(2,4) +"<br>");
+document.write(names.slice(-3,-2) +"<br>");
+document.write(names.slice(-4,-1) +"<br>");
+document.write(names.slice(5) +"<br>");
+let surnames=["samala","porika","bhukya","garre"];
+let details=names.concat(surnames);
+document.write(details +"<br>");
+document.write(names.indexOf("suchithra") +"<br>");
+document.write(names.indexOf("navya") +"<br>");
+let letters = ["A", "B", "C", "A","D","E"];
+document.write(letters.lastIndexOf("D") +"<br>");
+document.write(letters.lastIndexOf("F") +"<br>");
+document.write(letters.lastIndexOf("A",2) +"<br>");
+document.write(letters.lastIndexOf("B",-3));
+
+
+</script>
+</body>
+</html>

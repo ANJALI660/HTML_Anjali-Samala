@@ -1,0 +1,9 @@
+<DOCTYPE html>
+<html>
+<head>
+<title>Javascript</title>
+</head>
+<body>
+<button onclick="alert('This is my first web page')">Click Me</button>
+</body>
+</html>

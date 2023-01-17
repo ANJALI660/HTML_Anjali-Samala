@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<body>
+  
+<center>
+    <marquee  behavior="alternate" direction="middle">          
+          <img src=
+"tea1.jpg"
+          alt="tea logo"> 
+    </marquee>  
+      
+   <marquee  behavior="alternate" direction="middle">         
+          <img src= 
+"tea2.jpg"
+          alt="chaiclub logo"> 
+    </marquee>  
+</center>
+  
+</body>
+</html>

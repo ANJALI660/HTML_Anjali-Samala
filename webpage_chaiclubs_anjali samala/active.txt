@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+a:active {
+  background-color: yellow;
+}
+h1:active {
+  background-color:brown;
+}
+p:active {
+  background-color:green;
+}
+</style>
+</head>
+<body>
+
+<h1>Details</h1>
+<a href="https://www.stdentlogin.com">details.com</a><br>
+<a href="https://www.adhaar download.com">adhaar.com</a><br>
+<p>my name is <b>anjali samala</b></p>
+</html>
+</body>
+

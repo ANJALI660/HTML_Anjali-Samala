@@ -1,0 +1,15 @@
+<html>
+<head>
+<title>JavaScript</title>
+</head>
+<body>
+
+<script>
+let names=["Anjali","srilatha","suchithra","mounika"];
+document.write(names.indexOf("suchithra") +"<br>");
+document.write(names.indexOf("navya") +"<br>");
+
+
+</script>
+</body>
+</html>
